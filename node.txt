@@ -1,0 +1,54 @@
+ Globals in Node
+
+* Process  - has information about the enivironment program is running in
+
+* require - function to find and use modules in current modules
+
+*  __dirname - the current directory path
+
+* __filename - the curent filename
+
+* module  - information coaut current module , methods for making methods consumable
+
+* global - like window , its the "global" object   ... never use globale in production 
+
+
+What are Modules 
+ a module is an encasuplated code 
+
+ Types of modules 
+ * Modules that you create - 1
+
+ * Shipped modules   -  2 
+
+  - fs fileSystem modules to interrating with files on a machine
+
+  - http  low level modules for creating network based program like apis
+
+  - path useful for manipulating path strings and handlins differences across many OS's
+
+  - crypto  useful for securities stuff
+  
+  - url 
+
+  * Remote modules  - 3
+
+  Async code 
+   nodejs is single threaded  and event based just like the browserews  , js is single threaded  with an event loop, you can do so many things at once , running in the background 
+   async code make use  of callback , promise , async wait give back response from every task carried out   
+
+
+   Async pattern 
+    * Callback pattern
+
+    * Promises
+
+    *async await
+
+
+    Error handling
+
+    Servers
+
+
+
